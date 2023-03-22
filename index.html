@@ -1,12 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <nav class="menu-container">
+        <section class="items-container">
+            <div class="item">
+                <a onclick="handleFunctionVisibility(0)">Maior</a>
+            </div>
+            <div class="item">
+                <a onclick="handleFunctionVisibility(1)">Menor</a>
+            </div>
+            <div class="item">
+                <a onclick="handleFunctionVisibility(2)">Media</a>
+            </div>
+            <div class="item">
+                <a onclick="handleFunctionVisibility(3)">Crescente</a>
+            </div>
+            <div class="item">
+                <a onclick="handleFunctionVisibility(4)">Decrescente</a>
+            </div>
+        </section>
+    </nav>
+
+    <main class="content-container">
+        <h1>WebMath</h1>
+        <h3>Cálculos com vetor pela ciência!</h3>
+        <p>Clique em uma das funcionalidades do menu e comece agora mesmo</p>
+
+
+        <div class="function-container">
+            <div class="function">
+                <p>Maior</p>
+            </div>
+
+            <div class="function">
+                <p>Menor</p>
+            </div>
+
+            <div class="function">
+                <p>Media</p>
+            </div>
+
+            <div class="function">
+                <p>Crescente</p>
+            </div>
+
+            <div class="function">
+                <p>Decrescente</p>
+            </div>
+        </div>
+    </main>
+    <script src="./js/scripts.js"></script>
+    <script src="./js/navigation.js"></script>
 </body>
+
 </html>
