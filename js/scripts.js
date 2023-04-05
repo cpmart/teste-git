@@ -24,7 +24,12 @@ const retornarMedia = function(vetor){
     return media;
 }
 const retornarOrdenarCrescente = function(vetor){
-
+    
+    vetor.sort(function(a, b) {
+        return a - b;
+      });
+     return vetor;
+   
 }
 const retornarOrdenarDecrescente = function(vetor){
     vetor.sort((inicioVetor, finalVetor) => finalVetor - inicioVetor);
