@@ -19,7 +19,9 @@ const retornarMenor = function(vetor){
     return menor;
 }
 const retornarMedia = function(vetor){
-
+    let total = vetor.reduce((soma, vetor) => soma + vetor, 0);
+    const media = total / vetor.length;
+    return media;
 }
 const retornarOrdenarCrescente = function(vetor){
 
